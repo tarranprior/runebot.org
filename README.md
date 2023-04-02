@@ -4,7 +4,7 @@
 The official website for Runebot. Built with Gatsby and styled-components.
 
 ## Live Demo
-You can view a live version of this website [here](runebot-gg.netlify.app/).
+You can view a live version of this website [here](https://runebot-gg.netlify.app/).
 
 ![Preview](https://i.imgur.com/uJ2qPzu.png)
 
