@@ -8,3 +8,9 @@ export default function Home() {
     <Layout />
   );
 };
+
+export function Head() {
+  return (
+    <title>Runebot - The Open-Source RuneScape Lookup Tool for Discord</title>
+  );
+};

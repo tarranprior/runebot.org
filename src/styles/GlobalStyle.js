@@ -89,10 +89,9 @@ const GlobalStyle = createGlobalStyle`
   .fade-in {
     opacity: 0;
     transform: translateY(30px);
-    animation: moveup 0.5s linear forwards;
+    animation: fade-in 0.5s linear forwards;
   }
-
-  @keyframes fade-up {
+  @keyframes fade-in {
     100% {
       opacity: 1;
       transform: translateY(0px);

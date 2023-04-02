@@ -72,9 +72,9 @@ function Hero() {
       <div className="container">
         <StyledHeroSection>
           {heroComponents.map((component, i) => (
-            <div key={i}>{component}</div>
+            <div key={i} className="fade-in">{component}</div>
           ))}
-          <div className="buttons">
+          <div className="buttons fade-in">
             <div className="explore-button wobble-on-hover">
               {exploreButton}
             </div>
