@@ -6,13 +6,13 @@ The official website for Runebot. Built with Gatsby and styled-components.
 ## Live Demo
 You can view a live version of this website [here](runebot-gg.netlify.app/).
 
-![Preview](https://i.imgur.com/KAJiiXI.png)
+![Preview](https://i.imgur.com/uJ2qPzu.png)
 
 ## Installation
 1. Fork and clone the repository.
   ```bash
   # Clone the repo
-  git clone https://github.com/your_username/gatsby-discord-bot-website.git
+  git clone https://github.com/tarranprior/runebot.gg.git
   cd gatsby-discord-bot-website
   ```
 2. Install the dependencies.
