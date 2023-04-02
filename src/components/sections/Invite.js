@@ -25,9 +25,6 @@ const StyledInviteSection = styled.section`
     font-weight: 600;
     color: var(--white);
     background-color: var(--grey);
-    .icon {
-      margin-right: 0.5rem;
-    }
   }
 
   .server-button {
@@ -45,12 +42,15 @@ const StyledInviteSection = styled.section`
   .support-us {
     float: left;
     margin: 1em 0;
+    @media (max-width: 468px) {
+      float: right;
+    }
   }
 `;
 
 function Invite() {
 
-  const inviteButton = (<Link to="#invite" className="invite-button wobble-on-hover"><FontAwesomeIcon className="icon" icon={faDiscord} size="1x" />Invite To Discord</Link>)
+  const inviteButton = (<Link to="#invite" className="invite-button wobble-on-hover"><FontAwesomeIcon className="fa-icon" icon={faDiscord} size="1x" />Invite To Discord</Link>)
   const serverButton = (<Link to="#invite" className="server-button wobble-on-hover">Join Support Server</Link>)
 
   return (

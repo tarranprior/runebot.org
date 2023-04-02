@@ -18,7 +18,7 @@ const StyledFooter = styled.footer`
   background-color: var(--white);
   color: var(--grey);
   text-align: center;
-  margin-top: -1em !important;
+  margin-top: -1rem !important;
 
   a, p {
     color: var(--grey);
@@ -31,7 +31,7 @@ const StyledFooter = styled.footer`
   }
 
   div {
-    margin-top: -5rem;
+    margin-top: -1.5rem;
     padding-bottom: 2.5rem;
   }
 
@@ -39,8 +39,11 @@ const StyledFooter = styled.footer`
     ${() => mixins.flexCenter};
     font-size: 24px;
     font-weight: 300;
+    @media (max-width: 768px) {
+      padding-top: 1.5rem;
     }
   }
+
   .icon {
     margin-right: 0.25rem;
     padding-bottom: 0.25rem;

@@ -57,6 +57,13 @@ const GlobalStyle = createGlobalStyle`
     margin-bottom: 25px;
   }
 
+  h3 {
+    font-size: clamp(20px, 8vw, 28px);
+    line-height: 1.2;
+    max-width: 800px;
+    margin-bottom: 25px;
+  }
+
   p {
     font-size: 16px;
     color: var(--colour-dark-grey);
