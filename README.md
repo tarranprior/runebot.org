@@ -1,10 +1,10 @@
-# Runebot.gg
+# Runebot.org
 [![Netlify Status](https://api.netlify.com/api/v1/badges/05a5d027-6b37-4a85-bf7c-6b385e16e43b/deploy-status)](https://app.netlify.com/sites/runebot-gg/deploys)
 
 The official website for Runebot. Built with Gatsby and styled-components.
 
 ## Live Demo
-You can view a live version of this website [here](https://runebot-gg.netlify.app/).
+You can view a live version of this website [here](https://runebot.org/).
 
 ![Preview](https://i.imgur.com/uJ2qPzu.png)
 
@@ -12,8 +12,8 @@ You can view a live version of this website [here](https://runebot-gg.netlify.ap
 1. Fork and clone the repository.
   ```bash
   # Clone the repo
-  git clone https://github.com/tarranprior/runebot.gg.git
-  cd gatsby-discord-bot-website
+  git clone https://github.com/tarranprior/runebot.org
+  cd runebot.org
   ```
 2. Install the dependencies.
   ```bash
