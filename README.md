@@ -6,8 +6,6 @@ The official website for Runebot. Built with Gatsby and styled-components.
 ## Live Demo
 You can view a live version of this website [here](https://runebot.org/).
 
-![Preview](https://i.imgur.com/uJ2qPzu.png)
-
 ## Installation
 1. Fork and clone the repository.
   ```bash

@@ -65,7 +65,7 @@ function Hero() {
   const heroComponents = [heroHeader, heroText]
 
   const exploreButton = (<Link to="#features">Learn More</Link>)
-  const inviteButton = (<Link to="#invite"><FontAwesomeIcon className="fa-icon" icon={faDiscord} size="1x" />Invite to Discord</Link>)
+  const inviteButton = (<a href="https://invite.runebot.org" target="_self"><FontAwesomeIcon className="fa-icon" icon={faDiscord} size="1x" />Invite to Discord</a>)
 
   return (
     <>

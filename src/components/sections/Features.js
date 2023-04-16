@@ -129,7 +129,7 @@ function Features() {
           </div>
           <div className="feature-container">
             <div className="feature-text">
-              <h3 className="feature-header">Data visualisation for displaying the latest price analytics and trends.</h3>
+              <h3 className="feature-header">Discover the latest price analytics and trends with built-in data visualisation.</h3>
               <p>Runebot talks to the official <a href="https://secure.runescape.com/m=itemdb_oldschool/" target="_blank" rel="noreferrer">Grand Exchange</a> to fetch the latest data and analytics from the game's player economy, allowing users to discover the <strong>latest trends</strong> and the <strong>highest margins</strong>.</p>
             </div>
             <img src="armadyl-godsword.png" className="feature-image" alt="Armadyl godsword"/>
@@ -137,7 +137,7 @@ function Features() {
           <div className="feature-container">
             <img src="tool-selection.png" className="feature-image" alt="Tool selection"/>
             <div className="feature-text">
-              <h3 class="feature-header">Enhanced user experience with message components.</h3>
+              <h3 class="feature-header">Integrated message components for enhanced user experience.</h3>
               <p>By using the latest features of Discord's developer tools, Runebot provides a <strong>rich and smooth user experience</strong> - and fully supports slash commands, select menus, button objects, autocompletion and more.</p>
             </div>
           </div>

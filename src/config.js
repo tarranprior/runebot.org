@@ -11,7 +11,7 @@ module.exports = {
     },
     {
       label: "Support",
-      url: "/#support",
+      url: "https://support.runebot.org",
     },
     {
       label: "Changelog",
@@ -19,7 +19,7 @@ module.exports = {
     },
     {
       label: "Invite",
-      url: "/#invite",
+      url: "https://invite.runebot.org",
     },
   ],
 
