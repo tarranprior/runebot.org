@@ -20,7 +20,7 @@ const GlobalStyle = createGlobalStyle`
 
   html {
     width: 100%
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
   }
 
   ::selection {
@@ -34,7 +34,6 @@ const GlobalStyle = createGlobalStyle`
     color: var(--white);
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    border-top: 2px var(--white) solid !important;
   }
 
   .container {
@@ -65,7 +64,8 @@ const GlobalStyle = createGlobalStyle`
   }
 
   p {
-    font-size: 16px;
+    font-size: 17.25px;
+    font-weight: 300;
     color: var(--colour-dark-grey);
   }
 

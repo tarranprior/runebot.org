@@ -21,6 +21,7 @@
     "gatsby": "^5.8.1",
     "gatsby-plugin-fontawesome-css": "^1.2.0",
     "gatsby-plugin-manifest": "^5.8.0",
+    "gatsby-plugin-scroll-reveal": "^0.0.7",
     "gatsby-plugin-styled-components": "^6.8.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

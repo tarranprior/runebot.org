@@ -40,24 +40,36 @@ function Statistics() {
   return (
     <StyledStatsSection>
       <div className="container">
-        <h1>Trusted by dozens of communities.</h1>
-        <p>Don't just take our word for it, meet the people who already use Runebot.</p>
+        <div data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease">
+          <h1>Trusted by dozens of communities.</h1>
+        </div>
+        <div data-sal="slide-up" data-sal-delay="500" data-sal-easing="ease">
+          <p>Don't just take our word for it, meet the people who already use Runebot.</p>
+        </div>
         <StyledStatsDiv>
           <div className="count">
-            <span className="heavy">00+</span>
-            <p>Servers</p>
+            <div data-sal="slide-up" data-sal-delay="700" data-sal-easing="ease">
+              <span className="heavy">100+</span>
+              <p>Servers</p>
+            </div>
           </div>
           <div className="count">
-            <span className="heavy">00+</span>
-            <p>Channels</p>
+            <div data-sal="slide-up" data-sal-delay="800" data-sal-easing="ease">
+              <span className="heavy">2,000+</span>
+              <p>Channels</p>
+            </div>
           </div>
           <div className="count">
-            <span className="heavy">00+</span>
-            <p>Users</p>
+            <div data-sal="slide-up" data-sal-delay="900" data-sal-easing="ease">
+              <span className="heavy">8,000+</span>
+              <p>Users</p>
+            </div>
           </div>
           <div className="count">
-            <span className="heavy">00%</span>
-            <p>Uptime</p>
+            <div data-sal="slide-up" data-sal-delay="1000" data-sal-easing="ease">
+              <span className="heavy">99.99%</span>
+              <p>Uptime</p>
+            </div>
           </div>
         </StyledStatsDiv>
       </div>

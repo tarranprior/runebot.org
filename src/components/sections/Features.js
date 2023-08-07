@@ -42,6 +42,9 @@ const StyledFeaturesSection = styled.section`
     flex-direction: column;
     align-items: flex-start;
     padding-bottom: 50px;
+    h2 {
+      margin-top: 3.5rem;
+    }
   }
 
   .feature-container {
@@ -103,7 +106,6 @@ const StyledFeaturesSection = styled.section`
       margin-bottom: 2.75rem;
     }
   }
-
 `;
 
 function Features() {
@@ -114,38 +116,58 @@ function Features() {
 
   return (
     <>
-      <StyledFeaturesSection>
+      <StyledFeaturesSection id="features">
         <div className="section-header">
-          <h1>Features of Runebot</h1>
-          <p>Here are just <b>some</b> of the best features Runebot offers right out the box {'\u2026'}</p>
+          <div data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease">
+            <h1>Features of Runebot</h1>
+          </div>
+          <div data-sal="slide-up" data-sal-delay="400" data-sal-easing="ease">
+            <p>Here are just <b>some</b> of the best features Runebot offers right out the box {'\u2026'}</p>
+          </div>
         </div>
         <div className="container">
           <div className="feature-container">
-            <img src="3rd-age-platebody.png" className="feature-image" alt="3rd age platebody"/>
-            <div className="feature-text">
-              <h3 className="feature-header">Search for anything on RuneScape, directly from Discord.</h3>
-              <p>By using the official Old School RuneScape wiki, Runebot allows your community to explore the largest and most up-to-date repository of information available.<br/><br/>Whether you're a clan comparing weapons and equipment for your next raid, or group ironmen looking for your next quest - <strong>the possibilities are limitless.</strong></p>
+            <div data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease">
+              <img src="3rd-age-platebody.png" className="feature-image" alt="3rd age platebody"/>
+            </div>
+            <div data-sal="slide-left" data-sal-delay="400" data-sal-easing="ease">
+              <div className="feature-text">
+                <h3 className="feature-header">Search for anything on RuneScape, directly from Discord.</h3>
+                <p>By using the official Old School RuneScape wiki, Runebot allows your community to explore the largest and most up-to-date repository of information available.<br/><br/>Whether you're a main looking for the next boss to slay, or group ironmen tracking your stats and progress, Runebot helps <strong>bring players together</strong>.</p>
+              </div>
             </div>
           </div>
           <div className="feature-container">
-            <div className="feature-text">
-              <h3 className="feature-header">Discover the latest price analytics and trends with built-in data visualisation.</h3>
-              <p>Runebot talks to the official <a href="https://secure.runescape.com/m=itemdb_oldschool/" target="_blank" rel="noreferrer">Grand Exchange</a> to fetch the latest data and analytics from the game's player economy, allowing users to discover the <strong>latest trends</strong> and the <strong>highest margins</strong>.</p>
+            <div data-sal="slide-right" data-sal-delay="400" data-sal-easing="ease">
+              <div className="feature-text">
+                <h3 className="feature-header">Discover the latest price analytics and trends with built-in data visualisation.</h3>
+                <p>Runebot talks to the official <a href="https://secure.runescape.com/m=itemdb_oldschool/" target="_blank" rel="noreferrer">Grand Exchange</a> to fetch the latest data and analytics from the game's player economy, allowing users to discover the <strong>latest trends</strong> and the <strong>highest margins</strong>.</p>
+              </div>
             </div>
-            <img src="armadyl-godsword.png" className="feature-image" alt="Armadyl godsword"/>
+            <div data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease">
+              <img src="armadyl-godsword.png" className="feature-image" alt="Armadyl godsword"/>
+            </div>
           </div>
           <div className="feature-container">
-            <img src="tool-selection.png" className="feature-image" alt="Tool selection"/>
-            <div className="feature-text">
-              <h3 class="feature-header">Integrated message components for enhanced user experience.</h3>
-              <p>By using the latest features of Discord's developer tools, Runebot provides a <strong>rich and smooth user experience</strong> - and fully supports slash commands, select menus, button objects, autocompletion and more.</p>
+            <div data-sal="slide-left" data-sal-delay="400" data-sal-easing="ease">
+              <img src="tool-selection.png" className="feature-image" alt="Tool selection"/>
+            </div>
+            <div data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease">
+              <div className="feature-text">
+                <h3 class="feature-header">Enjoy the latest integrations of Discord's user experience.</h3>
+                <p>By using the latest features of Discord's developer tools, Runebot provides a <strong>rich and smooth user experience</strong> - and fully supports slash commands, select menus, button components, autocompletion and more.</p>
+              </div>
             </div>
           </div>
           <div className="section-subheader">
-            <h2>But wait! There's more ...</h2>
+            <div data-sal="slide-down" data-sal-delay="500" data-sal-easing="ease" data-sal-duration="500">
+              <h2>But wait! There's more ...</h2>
+            </div>
           </div>
           <div className="align-center wobble-on-hover">
-            {docsButton}
+            <div data-sal="slide-down" data-sal-delay="600" data-sal-easing="ease">
+              {docsButton}
+            </div>
           </div>
         </div>
       </StyledFeaturesSection>

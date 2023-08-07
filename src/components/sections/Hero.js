@@ -22,6 +22,10 @@ const StyledHeroSection = styled.section`
     margin-bottom: 1.75rem;
   }
 
+  strong {
+    font-weight: 600;
+  }
+
   .buttons {
     ${() => mixins.flexCenter};
     @media (max-width: 768px) {
@@ -61,7 +65,7 @@ const StyledHeroSection = styled.section`
 function Hero() {
 
   const heroHeader = <h1>The open-source RuneScape lookup tool for Discord.</h1>
-  const heroText = <p>Runebot is a feature-rich Discord bot which scrapes, pulls and displays information about the popular MMORPG <strong>Old School RuneScape</strong>. Powered by Jagex Ltd and <a href="https://weirdgloop.org/" target="_blank" rel="noreferrer">Weird Gloop Ltd</a>.</p>
+  const heroText = <p>Runebot is a feature rich Discord bot which scrapes, pulls and displays information about the popular MMORPG <strong>Old School RuneScape</strong>.</p>
   const heroComponents = [heroHeader, heroText]
 
   const exploreButton = (<Link to="#features">Learn More</Link>)
@@ -72,14 +76,16 @@ function Hero() {
       <div className="container">
         <StyledHeroSection>
           {heroComponents.map((component, i) => (
-            <div key={i} className="fade-in">{component}</div>
+            <div key={i} data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease" data-sal-duration="500">{component}</div>
           ))}
-          <div className="buttons fade-in">
-            <div className="explore-button wobble-on-hover">
-              {exploreButton}
-            </div>
-            <div className="invite-button wobble-on-hover">
-              {inviteButton}
+          <div data-sal="slide-up" data-sal-delay="600" data-sal-easing="ease">
+            <div className="buttons">
+              <div className="explore-button wobble-on-hover">
+                {exploreButton}
+              </div>
+              <div className="invite-button wobble-on-hover">
+                {inviteButton}
+              </div>
             </div>
           </div>
         </StyledHeroSection>

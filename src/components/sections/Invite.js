@@ -55,19 +55,23 @@ function Invite() {
   return (
     <StyledInviteSection id="invite">
       <div className="container">
-        <div>
+        <div data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease">
           <h2>Ready to invite Runebot?</h2>
           <p>You've already came this far! Why not try it out?!</p>
           {inviteButton}
         </div>
-        <div className="support-server">
-          <h2>Still have questions?</h2>
-          <p>Join the support server and ask away!</p>
-          {serverButton}
+        <div data-sal="slide-up" data-sal-delay="600" data-sal-easing="ease">
+          <div className="support-server">
+            <h2>Still have questions?</h2>
+            <p>Join the support server and ask away!</p>
+            {serverButton}
+          </div>
         </div>
-        <div className="support-us">
-          <h2>Fancy supporting us?</h2>
-          <p>The best way to support us is by using Runebot in your server, and dropping a <FontAwesomeIcon className="icon" icon={faStar} size="1x" /> on our <a href="https://github.com/tarranprior/runebot" target="_blank" rel="noreferrer">Github</a> repo!</p>
+        <div data-sal="slide-up" data-sal-delay="900" data-sal-easing="ease">
+          <div className="support-us">
+            <h2>Fancy supporting us?</h2>
+            <p>The best way to support us is by using Runebot in your server, and dropping a <FontAwesomeIcon className="icon" icon={faStar} size="1x" /> on our <a href="https://github.com/tarranprior/runebot" target="_blank" rel="noreferrer">Github</a> repo!</p>
+          </div>
         </div>
       </div>
     </StyledInviteSection>

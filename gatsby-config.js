@@ -8,5 +8,6 @@ module.exports = {
         icon: 'static/favicon.png'
       },
     },
+    `gatsby-plugin-scroll-reveal`,
   ],
 }
