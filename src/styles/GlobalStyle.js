@@ -63,6 +63,10 @@ const GlobalStyle = createGlobalStyle`
     margin-bottom: 25px;
   }
 
+  h4 {
+    margin-bottom: 15px;
+  }
+
   p {
     font-size: 17.25px;
     font-weight: 300;
@@ -82,20 +86,6 @@ const GlobalStyle = createGlobalStyle`
 
   .fa-icon {
     margin-right: 0.5rem;
-  }
-
-  /* Animations */
-
-  .fade-in {
-    opacity: 0;
-    transform: translateY(30px);
-    animation: fade-in 0.5s linear forwards;
-  }
-  @keyframes fade-in {
-    100% {
-      opacity: 1;
-      transform: translateY(0px);
-    }
   }
 
   @-webkit-keyframes wobble-on-hover {

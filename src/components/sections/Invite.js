@@ -6,8 +6,8 @@ import mixins from '../../styles/mixins';
 
 // FontAwesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar } from "@fortawesome/free-solid-svg-icons";
-import { faDiscord} from "@fortawesome/free-brands-svg-icons";
+import { faUsers, faStar } from "@fortawesome/free-solid-svg-icons";
+import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 
 const StyledInviteSection = styled.section`
   margin: 12em 0;
@@ -33,6 +33,13 @@ const StyledInviteSection = styled.section`
     background-color: var(--white);
   }
 
+  .github-button {
+    ${() => mixins.lgButton};
+    font-weight: 600;
+    color: var(--white);
+    background-color: var(--grey);
+  }
+
   .support-server {
     float: right;
     margin: 6rem 0;
@@ -50,7 +57,8 @@ const StyledInviteSection = styled.section`
 function Invite() {
 
   const inviteButton = (<a href="http://invite.runebot.org" className="invite-button wobble-on-hover" target="_self"><FontAwesomeIcon className="fa-icon" icon={faDiscord} size="1x" />Invite To Discord</a>)
-  const serverButton = (<a href="http://support.runebot.org" className="server-button wobble-on-hover" target="_self">Join Support Server</a>)
+  const serverButton = (<a href="http://support.runebot.org" className="server-button wobble-on-hover" target="_self"><FontAwesomeIcon className="fa-icon" icon={faUsers} size="1x" />Join Support Server</a>)
+  const githubButton = (<a href="https://github.com/tarranprior/runebot" className="github-button wobble-on-hover" target="_blank" rel="noreferrer"><FontAwesomeIcon className="fa-icon" icon={faStar} size="1x" />Star on GitHub</a>)
 
   return (
     <StyledInviteSection id="invite">
@@ -71,6 +79,7 @@ function Invite() {
           <div className="support-us">
             <h2>Fancy supporting us?</h2>
             <p>The best way to support us is by using Runebot in your server, and dropping a <FontAwesomeIcon className="icon" icon={faStar} size="1x" /> on our <a href="https://github.com/tarranprior/runebot" target="_blank" rel="noreferrer">Github</a> repo!</p>
+            {githubButton}
           </div>
         </div>
       </div>
