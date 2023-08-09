@@ -9,19 +9,27 @@ import Invite from '../components/sections/Invite';
 import Footer from '../components/Footer';
 
 // Styles
+import styled from 'styled-components';
 import GlobalStyle from '../styles/GlobalStyle';
+
+const StyledBody = styled.body`
+    background-color: var(--blurple);
+    color: var(--white);
+`
 
 function Layout() {
   return (
-    <div id="root">
-      <GlobalStyle />
-      <Navbar />
-      <Hero />
-      <Features />
-      <Statistics />
-      <Invite />
-      <Footer />
-    </div>
+    <StyledBody>
+      <div id="root">
+        <GlobalStyle />
+        <Navbar />
+        <Hero />
+        <Features />
+        <Statistics />
+        <Invite />
+        <Footer />
+      </div>
+    </StyledBody>
   );
 };
 

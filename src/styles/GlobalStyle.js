@@ -30,8 +30,6 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     font-family: Poppins, sans-serif;
-    background-color: var(--blurple);
-    color: var(--white);
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
   }
