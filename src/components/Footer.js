@@ -108,31 +108,31 @@ function Footer() {
           <div className="footer-menu">
             <h4>Runebot</h4>
             <ul>
-              <li><Link to="#">About Us</Link></li>
-              <li><Link to="#">Our Team</Link></li>
-              <li><Link to="#">Documentation</Link></li>
+              <li><Link to="/">About Us</Link></li>
+              <li><Link to="/">Our Team</Link></li>
+              <li><Link to="/">Documentation</Link></li>
             </ul>
           </div>
           <div>
             <h4>Support</h4>
             <ul>
-              <li><Link to="#">Community</Link></li>
-              <li><Link to="#">FAQ</Link></li>
-              <li><Link to="#">Contact</Link></li>
+              <li><Link to="/">Community</Link></li>
+              <li><Link to="/">FAQ</Link></li>
+              <li><Link to="/">Contact</Link></li>
             </ul>
           </div>
           <div>
             <h4>Legal</h4>
             <ul>
-              <li><Link to="#">Privacy Policy</Link></li>
-              <li><Link to="#">Terms of Service</Link></li>
-              <li><Link to="#">DMCA</Link></li>
+              <li><Link to="/privacy-policy.html">Privacy Policy</Link></li>
+              <li><Link to="/">Terms of Service</Link></li>
+              <li><Link to="/">DMCA</Link></li>
             </ul>
           </div>
         </div>
       </StyledFooter>
     </>
-  )
+  );
 };
-  
+
 export default Footer;

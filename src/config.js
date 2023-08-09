@@ -3,11 +3,11 @@ module.exports = {
   navigationLinks: [
     {
       label: "Home",
-      url: "/#",
+      url: "/",
     },
     {
       label: "Features",
-      url: "/#features",
+      url: "#features",
     },
     {
       label: "Support",
@@ -15,7 +15,7 @@ module.exports = {
     },
     {
       label: "Changelog",
-      url: "/#changelog",
+      url: "/",
     },
     {
       label: "Invite",

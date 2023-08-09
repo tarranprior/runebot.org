@@ -74,7 +74,7 @@ function Statistics() {
         </StyledStatsDiv>
       </div>
     </StyledStatsSection>
-  )
-}
+  );
+};
 
 export default Statistics;

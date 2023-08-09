@@ -84,7 +84,7 @@ function Invite() {
         </div>
       </div>
     </StyledInviteSection>
-  )
-}
+  );
+};
 
 export default Invite;

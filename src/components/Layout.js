@@ -22,7 +22,7 @@ function Layout() {
       <Invite />
       <Footer />
     </div>
-  )
+  );
 };
 
 export default Layout;

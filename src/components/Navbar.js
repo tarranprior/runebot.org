@@ -38,21 +38,23 @@ function Navbar() {
   return(
     <StyledHeader>
       <StyledNav>
-        <ol>
-          {navigationLinks &&
-          navigationLinks.map(({ url, label }, i) => (
-            <li key={i}>
-              <a href={url}>{label}</a>
-            </li>
-          ))}
-        </ol>
-        <div>
+        <div data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease">
+          <ol>
+            {navigationLinks &&
+            navigationLinks.map(({ url, label }, i) => (
+              <li key={i}>
+                <a href={url}>{label}</a>
+              </li>
+            ))}
+          </ol>
+        </div>
+        <div data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease">
           <Link to="#docs"><FontAwesomeIcon className="fa-icon" icon={faBook} size="1x" />Documentation</Link>
           <a href="https://github.com/tarranprior/runebot" target="_blank" rel="noreferrer"><FontAwesomeIcon className="fa-icon" icon={faGithub} size="1x" />Github</a>
         </div>
       </StyledNav> 
     </StyledHeader>
-  )
+  );
 };
 
 export default Navbar;
