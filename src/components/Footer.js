@@ -99,7 +99,7 @@ function Footer() {
             <p>The open-source RuneScape lookup tool for Discord.</p>
             <ul className="social-icons">
               <li><a href="https://github.com/tarranprior/runebot" target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icon" icon={faGithub} size="1x" /> </a></li>
-              <li><a href="http://support.runebot.org" target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icon" icon={faDiscord} size="1x" /> </a></li>
+              <li><a href="https://support.runebot.org" target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icon" icon={faDiscord} size="1x" /> </a></li>
             </ul>
             <p className="copyright">
               Copyright © {moment().year()} <a href={developerURL} target="_blank" rel="noopener noreferrer">Runebot</a>
