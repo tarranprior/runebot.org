@@ -65,7 +65,7 @@ export default function Home() {
       <div className="container">
         <h2>Our Privacy Policy</h2>
         <p>Your privacy is important to us.</p>
-        <p>It is Runebot's policy to respect your privacy regarding any information we may collect from you across our Discord bot, <Link to="https://runebot.org">https://runebot.org</Link>, and other websites we own and operate (hereinafter, "us", "we", "runebot.org" or "our".)</p>
+        <p>It is Runebot's policy to respect your privacy regarding any information we may collect from you across our Discord bot, <Link to="/">https://runebot.org</Link>, and other websites we own and operate (hereinafter, "us", "we", "runebot.org" or "our".)</p>
         <h3>Data Collection & Use</h3>
         <p>We try our best to avoid collecting data unless it's necessary for the functionality of Runebot. The only information our Discord bot collects is the data you provide us, which is entirely optional.</p>
         <p>This data includes:</p>
@@ -101,7 +101,7 @@ export default function Home() {
         <h3>Changes To This Policy</h3>
         <p>We may update this privacy policy to reflect changes to our information practices. If we do make any changes, we will notify you by means of a notice on this website prior to the change becoming effective. We encourage you to frequently review this page for the latest information on our privacy practices.</p>
         <h3>Contact</h3>
-        <p className="bottom-text">You have the right to access, update or delete your personal data at any time. If you have any questions or concerns about this policy, please contact us at <a href="mailto:privacy@runebot.org">privacy@runebot.org</a> or join our <Link to="https://support.runebot.org/">support server</Link>.</p>
+        <p className="bottom-text">You have the right to access, update or delete your personal data at any time. If you have any questions or concerns about this policy, please contact us at <a href="mailto:privacy@runebot.org">privacy@runebot.org</a> or join our <a href="https://support.runebot.org/" target="_blank" rel="noreferrer">support server</Link>.</p>
       </div>
       <Footer />
     </StyledBody>
