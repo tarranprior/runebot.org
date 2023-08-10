@@ -79,7 +79,7 @@ const StyledFooter = styled.footer`
     }
   }
   .social-icon {
-    padding-top: 1.5rem;
+    padding-top: 1.25rem;
     font-size: 20px;
   }
 
@@ -124,7 +124,7 @@ function Footer() {
           <div>
             <h4>Legal</h4>
             <ul>
-              <li><Link to="/privacy-policy">Privacy Policy</Link></li>
+              <li><Link to="/privacy">Privacy Policy</Link></li>
               <li><Link to="/">Terms of Service</Link></li>
               <li><Link to="/">DMCA</Link></li>
             </ul>

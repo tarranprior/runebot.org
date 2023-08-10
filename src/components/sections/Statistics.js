@@ -61,7 +61,7 @@ function Statistics() {
           </div>
           <div className="count">
             <div data-sal="slide-up" data-sal-delay="900" data-sal-easing="ease">
-              <span className="heavy">8,000+</span>
+              <span className="heavy">15,000+</span>
               <p>Users</p>
             </div>
           </div>

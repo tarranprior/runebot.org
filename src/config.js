@@ -7,7 +7,7 @@ module.exports = {
     },
     {
       label: "Features",
-      url: "#features",
+      url: "https://runebot.org/#features",
     },
     {
       label: "Support",
