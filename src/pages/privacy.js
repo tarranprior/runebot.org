@@ -46,15 +46,6 @@ const StyledBody = styled.body`
   pre {
     padding-bottom: 3.5rem;
   }
-
-  .meta {
-    margin-bottom: 3.5rem;
-    ul, li, pre {
-      display: inline;
-      list-style-type: none;
-      padding-right: .5rem;
-    }
-  }
 `;
 
 export default function Home() {
@@ -64,10 +55,6 @@ export default function Home() {
       <Navbar />
       <div className="container">
         <h2>Our Privacy Policy</h2>
-        <ul className="meta">
-          <li><pre>🗓️ Effective: 10th August 2023</pre></li>
-          <li><pre>✏️ Updated: 10th August 2023</pre></li>
-        </ul>
         <p>Your privacy is important to us.</p>
         <p>It is Runebot's policy to respect your privacy regarding any information we may collect from you across our Discord bot, https://runebot.org, and other websites we own and operate (hereinafter, "us", "we", or "runebot.org".)</p>
         <h3>Data Collection & Use</h3>
