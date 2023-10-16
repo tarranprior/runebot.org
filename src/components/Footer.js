@@ -116,7 +116,7 @@ function Footer() {
           <div>
             <h4>Support</h4>
             <ul>
-              <li><Link to="/">Community</Link></li>
+              <li><a href="https://support.runebot.org" target="_blank" rel="noreferrer">Community</a></li>
               <li><Link to="/">FAQ</Link></li>
               <li><Link to="/">Contact</Link></li>
             </ul>
@@ -126,7 +126,7 @@ function Footer() {
             <ul>
               <li><Link to="/privacy">Privacy Policy</Link></li>
               <li><Link to="/terms">Terms of Service</Link></li>
-              <li><Link to="/">DMCA</Link></li>
+              <li><a href="https://dmca.com/site-report/runebot.org" target="_blank" rel="noreferrer">DMCA</a></li>
             </ul>
           </div>
         </div>

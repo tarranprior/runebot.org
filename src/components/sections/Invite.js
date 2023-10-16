@@ -56,8 +56,8 @@ const StyledInviteSection = styled.section`
 
 function Invite() {
 
-  const inviteButton = (<a href="http://invite.runebot.org" className="invite-button wobble-on-hover" target="_self"><FontAwesomeIcon className="fa-icon" icon={faDiscord} size="1x" />Invite To Discord</a>)
-  const serverButton = (<a href="http://support.runebot.org" className="server-button wobble-on-hover" target="_self"><FontAwesomeIcon className="fa-icon" icon={faUsers} size="1x" />Join Support Server</a>)
+  const inviteButton = (<a href="https://invite.runebot.org" className="invite-button wobble-on-hover" target="_self"><FontAwesomeIcon className="fa-icon" icon={faDiscord} size="1x" />Invite To Discord</a>)
+  const serverButton = (<a href="https://support.runebot.org" className="server-button wobble-on-hover" target="_self"><FontAwesomeIcon className="fa-icon" icon={faUsers} size="1x" />Join Support Server</a>)
   const githubButton = (<a href="https://github.com/tarranprior/runebot" className="github-button wobble-on-hover" target="_blank" rel="noreferrer"><FontAwesomeIcon className="fa-icon" icon={faStar} size="1x" />Star on GitHub</a>)
 
   return (
