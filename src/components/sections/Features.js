@@ -20,9 +20,9 @@ const StyledFeaturesSection = styled.section`
   color: var(--dark-grey);
 
   p {
-      font-size: 18px;
-      max-width: 600px;
-    }
+    font-size: 18px;
+    max-width: 600px;
+  }
 
   .section-header {
     margin: auto;

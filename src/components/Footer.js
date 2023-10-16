@@ -12,7 +12,6 @@ import mixins from '../styles/mixins';
 
 // FontAwesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faRobot } from "@fortawesome/free-solid-svg-icons";
 import { faDiscord, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const StyledFooter = styled.footer`
@@ -24,13 +23,22 @@ const StyledFooter = styled.footer`
   .container {
     ${() => mixins.flexBetween};
     text-align: left !important;
+    padding-top: 2.75rem;
     padding-bottom: 2.75rem;
+    @media (max-width: 768px) {
+      flex-direction: column;
+      text-align: center !important;
+      font-size: 24px;
+    }
   }
 
   a, p {
     color: var(--grey);
     font-size: 14px;
     font-weight: 400;
+    @media (max-width: 768px) {
+      font-size: 18px;
+    }
   }
 
   a {
@@ -51,8 +59,27 @@ const StyledFooter = styled.footer`
     }
   }
 
+  .footer-nav-container {
+    ${() => mixins.flexBetween};
+    @media (max-width: 768px) {
+      flex-direction: column;
+      margin-top: 2.5rem;
+    }
+  }
+
+  .footer-nav {
+    margin-left: 2.75rem;
+    margin-right: 2.75rem;
+    @media (max-width: 768px) {
+      margin-bottom: 2.75rem;
+    }
+  }
+
   .logo-container {
-    margin-top: -3.75rem;
+    margin-top: -2.75rem;
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
 
   .logo {
@@ -86,6 +113,13 @@ const StyledFooter = styled.footer`
   .copyright {
     margin-top: 1.5rem;
   }
+  .copyright-bottom {
+    display: none;
+    @media (max-width: 768px) {
+      display: inline;
+      font-size: 16px;
+    }
+  }
 `;
 
 function Footer() {
@@ -95,7 +129,7 @@ function Footer() {
       <StyledFooter>
         <div className="container">
           <div className="logo-container">
-            <p><Link to="/" className="logo"><FontAwesomeIcon className="icon" icon={faRobot} size="1x" /> Rune<strong>bot</strong></Link></p>
+            <p><Link to="/" className="logo">Rune<strong>bot</strong></Link></p>
             <p>The open-source RuneScape lookup tool for Discord.</p>
             <ul className="social-icons">
               <li><a href="https://github.com/tarranprior/runebot" target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icon" icon={faGithub} size="1x" /> </a></li>
@@ -105,30 +139,35 @@ function Footer() {
               Copyright © {moment().year()} <a href={developerURL} target="_blank" rel="noopener noreferrer">Runebot</a>
             </p>
           </div>
-          <div className="footer-menu">
-            <h4>Runebot</h4>
-            <ul>
-              <li><Link to="/">About Us</Link></li>
-              <li><Link to="/">Our Team</Link></li>
-              <li><Link to="/">Documentation</Link></li>
-            </ul>
+          <div className="footer-nav-container">
+            <div className="footer-nav">
+              <h4>Runebot</h4>
+              <ul>
+                <li><Link to="/">About Us</Link></li>
+                <li><Link to="/">Our Team</Link></li>
+                <li><Link to="/">Documentation</Link></li>
+              </ul>
+            </div>
+            <div className="footer-nav">
+              <h4>Support</h4>
+              <ul>
+                <li><a href="https://support.runebot.org" target="_blank" rel="noreferrer">Community</a></li>
+                <li><Link to="/">FAQ</Link></li>
+                <li><Link to="/">Contact</Link></li>
+              </ul>
+            </div>
+            <div className="footer-nav">
+              <h4>Legal</h4>
+              <ul>
+                <li><Link to="/privacy">Privacy Policy</Link></li>
+                <li><Link to="/terms">Terms of Service</Link></li>
+                <li><a href="https://dmca.com/site-report/runebot.org" target="_blank" rel="noreferrer">DMCA</a></li>
+              </ul>
+            </div>
           </div>
-          <div>
-            <h4>Support</h4>
-            <ul>
-              <li><a href="https://support.runebot.org" target="_blank" rel="noreferrer">Community</a></li>
-              <li><Link to="/">FAQ</Link></li>
-              <li><Link to="/">Contact</Link></li>
-            </ul>
-          </div>
-          <div>
-            <h4>Legal</h4>
-            <ul>
-              <li><Link to="/privacy">Privacy Policy</Link></li>
-              <li><Link to="/terms">Terms of Service</Link></li>
-              <li><a href="https://dmca.com/site-report/runebot.org" target="_blank" rel="noreferrer">DMCA</a></li>
-            </ul>
-          </div>
+          <p className="copyright-bottom">
+            Copyright © {moment().year()} <a href={developerURL} target="_blank" rel="noopener noreferrer">Runebot</a>
+          </p>
         </div>
       </StyledFooter>
     </>

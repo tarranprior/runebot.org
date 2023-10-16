@@ -1,7 +1,9 @@
-exports.createPages = async ({ graphql, actions }) => {
-    const { createRedirect } = actions
-    createRedirect({
-      fromPath: `/support`,
-      toPath: `/privacy`,
-    })
-  }
+exports.createPages = async ({ actions }) => {
+  const { createRedirect } = actions
+  
+  createRedirect({
+    fromPath: `/invite/*`,
+    toPath: `https://discord.com/oauth2/authorize?client_id=978953033989914654&permissions=2147764224&scope=bot%20applications.commands`,
+    statusCode: 200,
+  })
+}

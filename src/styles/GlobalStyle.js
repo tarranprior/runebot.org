@@ -50,6 +50,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0 auto;
     padding: 0 2.5em;
     max-width: 1200px;
+    overflow: hidden;
   }
 
   h1 {
