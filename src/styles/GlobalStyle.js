@@ -22,7 +22,7 @@ const GlobalStyle = createGlobalStyle`
     width: 100%
     scroll-behavior: smooth !important;
     -webkit-font-smoothing: antialiased;
-    scrollbar-color: var(--grey) var(--lightest-grey);
+    scrollbar-color: var(--light-grey) var(--lightest-grey);
   }
 
   ::selection {
