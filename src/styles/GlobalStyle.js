@@ -21,7 +21,6 @@ const GlobalStyle = createGlobalStyle`
   html {
     width: 100%
     scroll-behavior: smooth !important;
-    scrollbar-width: thin;
     -webkit-font-smoothing: antialiased;
     scrollbar-color: var(--grey) var(--lightest-grey);
   }
@@ -31,16 +30,12 @@ const GlobalStyle = createGlobalStyle`
     color: var(--grey);
   }
 
-  body::-webkit-scrollbar {
-    width: 12px;
-  }
-
   body::-webkit-scrollbar-track {
     background: var(--lightest-grey);
   }
 
   body::-webkit-scrollbar-thumb {
-    background-color: var(--grey);
+    background-color: var(--light-grey);
     border: 3px solid var(--lightest-grey);
     border-radius: 10px;
   }
