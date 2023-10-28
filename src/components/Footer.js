@@ -15,6 +15,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDiscord, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const StyledFooter = styled.footer`
+  ${() => mixins.flexBetween};
   background-color: var(--white);
   color: var(--grey);
   text-align: center;
@@ -23,7 +24,7 @@ const StyledFooter = styled.footer`
   .container {
     ${() => mixins.flexBetween};
     text-align: left !important;
-    padding-top: 2.75rem;
+    padding-top: 5rem;
     padding-bottom: 2.75rem;
     @media (max-width: 768px) {
       flex-direction: column;
@@ -69,9 +70,11 @@ const StyledFooter = styled.footer`
 
   .footer-nav {
     margin-left: 2.75rem;
-    margin-right: 2.75rem;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
     @media (max-width: 768px) {
-      margin-bottom: 2.75rem;
+      margin-left: 0;
+      margin-bottom: 5rem;
     }
   }
 
@@ -140,7 +143,9 @@ function Footer() {
                 Copyright © {moment().year()} <a href={developerURL} target="_blank" rel="noopener noreferrer">Runebot</a>
               </p>
             </div>
-            <div className="footer-nav-container">
+          </div>
+          <div className="footer-nav-container">
+            <div data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease">
               <div className="footer-nav">
                 <h4>Runebot</h4>
                 <ul>
@@ -149,6 +154,8 @@ function Footer() {
                   <li><Link to="/">Documentation</Link></li>
                 </ul>
               </div>
+            </div>
+            <div data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease">
               <div className="footer-nav">
                 <h4>Support</h4>
                 <ul>
@@ -157,6 +164,8 @@ function Footer() {
                   <li><Link to="/">Contact</Link></li>
                 </ul>
               </div>
+            </div>
+            <div data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease">
               <div className="footer-nav">
                 <h4>Legal</h4>
                 <ul>
@@ -166,6 +175,8 @@ function Footer() {
                 </ul>
               </div>
             </div>
+          </div>
+          <div data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease">
             <p className="copyright-bottom">
               Copyright © {moment().year()} <a href={developerURL} target="_blank" rel="noopener noreferrer">Runebot</a>
             </p>
