@@ -39,13 +39,15 @@ You can view a live version of this website [here](https://runebot.org/).
 | Blurple | ![#5865f2](https://placehold.co/10x10/5865f2/5865f2.png) `#5865f2` |
 
 ## Screenshots
-<img src="screenshots/chunk-00.png" width="900">
-<img src="screenshots/chunk-01.png" width="900">
-<img src="screenshots/chunk-02.png" width="900">
-<img src="screenshots/chunk-03.png" width="900">
-<img src="screenshots/chunk-04.png" width="900">
-<img src="screenshots/chunk-05.png" width="900">
-<img src="screenshots/chunk-06.png" width="900">
+<p align="left">
+  <img src="screenshots/chunk-00.png" width="900">
+  <img src="screenshots/chunk-01.png" width="900">
+  <img src="screenshots/chunk-02.png" width="900">
+  <img src="screenshots/chunk-03.png" width="900">
+  <img src="screenshots/chunk-04.png" width="900">
+  <img src="screenshots/chunk-05.png" width="900">
+  <img src="screenshots/chunk-06.png" width="900">
+</p>
 
 ## References
 <details>
@@ -150,4 +152,5 @@ You can view a live version of this website [here](https://runebot.org/).
   The fastest way to combine your favorite tools and APIs to build the fastest sites, stores, and apps for the web. And also the best place to build, deploy, and host your Gatsby sites.
 
   <!-- AUTO-GENERATED-CONTENT:END -->
+
 </details>
