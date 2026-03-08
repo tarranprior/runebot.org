@@ -38,6 +38,15 @@ You can view a live version of this website [here](https://runebot.org/).
 | White | ![#f3f3f6](https://placehold.co/10x10/f3f3f6/f3f3f6.png) `#f3f3f6` |
 | Blurple | ![#5865f2](https://placehold.co/10x10/5865f2/5865f2.png) `#5865f2` |
 
+## Screenshots
+<img src="screenshots/chunk-00.png" width="900">
+<img src="screenshots/chunk-01.png" width="900">
+<img src="screenshots/chunk-02.png" width="900">
+<img src="screenshots/chunk-03.png" width="900">
+<img src="screenshots/chunk-04.png" width="900">
+<img src="screenshots/chunk-05.png" width="900">
+<img src="screenshots/chunk-06.png" width="900">
+
 ## References
 <details>
   <summary>Gatsby's Starter Setup Guide (https://github.com/gatsbyjs/gatsby-starter-hello-world)</summary>
