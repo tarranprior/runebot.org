@@ -31,12 +31,12 @@ You can view a live version of this website [here](https://runebot.org/).
 ## Colour Reference
 | Colour  | Hex |
 | ------------- | ------------- |
-| Dark Grey  | ![#1d1e28](https://via.placeholder.com/10/1d1e28?text=+) `#1d1e28` |
-| Grey  | ![#2b2c3b](https://via.placeholder.com/10/2b2c3b?text=+) `#2b2c3b` |
-| Light Grey  | ![#c4c4cb](https://via.placeholder.com/10/c4c4cb?text=+) `#c4c4cb` |
-| Lightest Grey | ![#e7e7ea](https://via.placeholder.com/10/e7e7ea?text=+) `#e7e7ea` |
-| White | ![#f3f3f6](https://via.placeholder.com/10/f3f3f6?text=+) `#f3f3f6` |
-| Blurple | ![#5865f2](https://via.placeholder.com/10/5865f2?text=+) `#5865f2` |
+| Dark Grey | ![#1d1e28](https://placehold.co/10x10/1d1e28/1d1e28.png) `#1d1e28` |
+| Grey | ![#2b2c3b](https://placehold.co/10x10/2b2c3b/2b2c3b.png) `#2b2c3b` |
+| Light Grey | ![#c4c4cb](https://placehold.co/10x10/c4c4cb/c4c4cb.png) `#c4c4cb` |
+| Lightest Grey | ![#e7e7ea](https://placehold.co/10x10/e7e7ea/e7e7ea.png) `#e7e7ea` |
+| White | ![#f3f3f6](https://placehold.co/10x10/f3f3f6/f3f3f6.png) `#f3f3f6` |
+| Blurple | ![#5865f2](https://placehold.co/10x10/5865f2/5865f2.png) `#5865f2` |
 
 ## References
 <details>
